@@ -1,0 +1,13 @@
+name = "ClimateTasks"
+uuid = "1a49d507-8691-47fa-b95e-812ffcc74e70"
+authors = ["gaelforget <gforget@mit.edu>"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
