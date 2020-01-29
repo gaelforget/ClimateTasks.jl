@@ -3,6 +3,21 @@ uuid = "1a49d507-8691-47fa-b95e-812ffcc74e70"
 authors = ["gaelforget <gforget@mit.edu>"]
 version = "0.1.0"
 
-[compat]
-julia = "1"
+[deps]
+Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
+DistributedArrays = "aaf54ef3-cdf8-58ed-94cc-d582ad619b94"
+FortranFiles = "c58ffaec-ab22-586d-bfc5-781a99fd0b10"
+JLD = "4138dd39-2aa7-5051-a626-17a0bb65d9c8"
+MITgcmTools = "62725fbc-3a66-4df3-9000-e33e85b3a198"
+MeshArrays = "cb8c808f-1acf-59a3-9d2b-6e38d009f683"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+YAML = "ddb6d928-2868-570f-bddf-ab3f9cf99eb6"
 
+[compat]
+DistributedArrays = "0.6.4"
+FortranFiles = "0.5.0"
+JLD = "0.9.1"
+MITgcmTools = "0.1.1"
+MeshArrays = "0.2.5"
+YAML = "0.3.2"
+julia = "1"
