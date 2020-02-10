@@ -7,3 +7,7 @@
 [![Coveralls](https://coveralls.io/repos/github/gaelforget/ClimateTasks.jl/badge.svg?branch=master)](https://coveralls.io/github/gaelforget/ClimateTasks.jl?branch=master)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3633454.svg)](https://doi.org/10.5281/zenodo.3633454)
+
+Set of tools that assemble, launch, distribute, and/or schedule common computational tasks related to climate research.
+
+_This package is in early developement stage when breaking changes are to be expected._
