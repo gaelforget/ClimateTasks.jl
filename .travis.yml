@@ -10,6 +10,11 @@ julia:
 notifications:
   email: false
 
+before_install:
+  - sudo apt-get -y install gcc
+  - sudo apt-get -y install gcc-gfortran
+  - sudo apt-get -y install openmpi-devel
+
 after_success:
   - julia -e 'using Pkg; Pkg.add("Coverage"); using Coverage; Codecov.submit(process_folder())'
   - julia -e 'using Pkg; Pkg.add("Coverage"); using Coverage; Coveralls.submit(process_folder())'
