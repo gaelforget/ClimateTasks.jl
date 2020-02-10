@@ -12,7 +12,7 @@ notifications:
 
 before_install:
   - sudo apt-get -y install gcc
-  - sudo apt-get -y install gcc-gfortran
+  - sudo apt-get -y install gfortran
   - sudo apt-get -y install openmpi-devel
 
 after_success:
