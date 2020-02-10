@@ -1,0 +1,15 @@
+Date           : 2019-04-20
+Author         : Gael Forget
+InputDir       :
+  - diags/
+InputFile      : 
+  - state_2d_set1
+InputSize      :
+  - [720, 360] 
+Specs          : 
+  name         : task1
+  file         : MTRX.jld
+  mask         : msk2d
+OutputDir      : diags_interp/
+OutputSize     : [720, 360]
+

@@ -1,5 +1,20 @@
 
 """
+    MITgcm(p::String)
+
+Run MITgcm; download it if needed.
+"""
+function MITgcm(p::String="./",c::Cmd=`./testreport -t hs94.cs-32x32x5`)
+   d=pwd()
+   cd(p)
+   test=~isdir("MITgcm")
+   test ? run(`git clone https://github.com/MITgcm/MITgcm`) : nothing
+   cd("MITgcm/verification/")
+   run(c)
+   cd(d)
+end
+
+"""
     StartWorkers(nwrkrs::Int)
 
 Start workers if needed.
